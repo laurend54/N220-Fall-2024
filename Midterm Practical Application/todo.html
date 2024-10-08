@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <script src="todo.js" defer></script>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+
+    <!-- Input field for new item -->
+    <input type="text" id="item" name="item" placeholder="Enter a new task" />
+
+    <!-- Button to add item to the list -->
+    <button onclick="addItem()">Add Item</button>
+
+    <!-- Unordered list to hold todo items -->
+    <ul id="list"></ul>
+
+    <!-- Horizontal line for separation -->
+    <hr />
+
+    <!-- Button to summarize the list -->
+    <button onclick="summarizeList()">Summarize List</button>
+
+    <!-- Paragraph to display the summary -->
+    <p id="summary"></p>
+  </body>
+</html>
